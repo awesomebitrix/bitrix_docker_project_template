@@ -1,0 +1,7 @@
+bitrixapp:
+  container_name: bitrixapp
+  image: cjp2600/bitrix
+  volumes:
+    - /home/cjp2600/sites/8il/bim/www:/home/bitrix/www
+  ports:
+    - "8080:80"
